@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/holo_blue_bright"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@android:color/holo_orange_light"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Holaaaaaaaa"
+        android:textSize="30dp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textSize="30dp"
+        android:hint="Escribe tu Nombre"
+        android:layout_gravity="center"/>
+
+
+</FrameLayout>
